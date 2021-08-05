@@ -23,7 +23,7 @@ public class BankMain {
 		//소유자로 계좌 찾기
 		System.out.println("3. 소유자로 계좌 찾기");
 		ArrayList<Account> ar = new ArrayList<Account>();
-		ar = bank.findAccount("병민");
+		ar = bank.findAccount("경희");
 		for(Account value : ar) {
 			System.out.println("[계좌번호 : "+value.getAccountNo()+" 성함 : " + value.getName()+"]");
 		}

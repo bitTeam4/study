@@ -13,6 +13,7 @@ public class BankMain {
 		bank.addAccount("222222", "경희");
 		bank.addAccount("222255", "경희");
 		bank.addAccount("999999", "예솔");
+		bank.addAccount("999999", "예솔 git");
 
 		System.out.println();
 		

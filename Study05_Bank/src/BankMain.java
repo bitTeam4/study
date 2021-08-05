@@ -14,6 +14,7 @@ public class BankMain {
 		bank.addAccount("222255", "경희");
 		bank.addAccount("999999", "예솔");
 		bank.addAccount("999999", "예솔 git");
+		bank.addAccount("999999", "예솔 git2");
 
 		System.out.println();
 		

@@ -11,6 +11,7 @@ public class BankMain {
 		bank.addAccount("343434", "순형");
 		bank.addAccount("222222", "병민");
 		bank.addAccount("222255", "병민");
+		bank.addAccount("123124", "뿌웅");
 		System.out.println();
 		
 		

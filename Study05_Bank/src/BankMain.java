@@ -7,8 +7,8 @@ public class BankMain {
 		
 		//계좌 생성
 		System.out.println("1. 계좌 생성");
-		bank.addAccount("123456", "순형");
-		bank.addAccount("343434", "예슬");
+		bank.addAccount("999999", "예솔");
+		bank.addAccount("343434", "순형");
 		bank.addAccount("222222", "병민");
 		bank.addAccount("222255", "병민");
 		System.out.println();

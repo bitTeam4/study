@@ -9,6 +9,7 @@ public class BankMain {
 		System.out.println("1. 계좌 생성");
 		bank.addAccount("999999", "정우");
 		bank.addAccount("343434", "순영");
+		bank.addAccount("777777", "재일");
 		bank.addAccount("222222", "경희");
 		bank.addAccount("222255", "경희");
 		System.out.println();

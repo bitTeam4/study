@@ -7,11 +7,11 @@ public class BankMain {
 		
 		//계좌 생성
 		System.out.println("1. 계좌 생성");
-		bank.addAccount("999999", "예솔");
-		bank.addAccount("343434", "순형");
-		bank.addAccount("222222", "병민");
-		bank.addAccount("222255", "병민");
-		bank.addAccount("222255", "병민2");
+		bank.addAccount("999999", "정우");
+		bank.addAccount("343434", "순영");
+		bank.addAccount("777777", "재일");
+		bank.addAccount("222222", "경희");
+		bank.addAccount("222255", "경희");
 		System.out.println();
 		
 		
@@ -24,7 +24,7 @@ public class BankMain {
 		//소유자로 계좌 찾기
 		System.out.println("3. 소유자로 계좌 찾기");
 		ArrayList<Account> ar = new ArrayList<Account>();
-		ar = bank.findAccount("병민");
+		ar = bank.findAccount("경희");
 		for(Account value : ar) {
 			System.out.println("[계좌번호 : "+value.getAccountNo()+" 성함 : " + value.getName()+"]");
 		}
